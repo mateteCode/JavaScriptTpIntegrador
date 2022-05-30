@@ -1,0 +1,79 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-size: 100%;}
+.clearfix::after {  content: ""; clear: both; display: table; }
+
+header, .div-info {
+  background-color: #353a40 !important;
+  color: white;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.carousel-item {
+  position: relative;
+}
+.carousel-caption {
+  position: absolute;
+  width: 47%;
+  height: 30%;
+  right: 5%;
+  left: auto;
+  top: 50%;
+  margin-top: -15%; /* (- menos) la mitad del valor de la altura del elemento hijo */
+  text-align: end;
+}
+
+.carousel-caption h2 {
+  font-size: 3vw;
+}
+.carousel-caption p{
+  font-size: 1.5vw;
+}
+
+.oradores-title {
+  font-size: 0.75rem;
+}
+.oradores-text {
+  font-size: 2rem;
+}
+
+.card-group{margin-top: 20px;}
+
+.card-text-bold {
+  font-weight: bolder;
+}
+
+footer li {
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 60px;
+}
+
+.bg-submit {
+  background-color: #96c93e;
+  color: white
+}
+
+.bg-submit:hover {
+  background-color: green;
+  color: white;
+}
+
+footer {
+  background-color: #1e5170;
+}
+footer a {
+  color: white !important;
+}
+footer a:hover {
+  color: lightblue !important;
+}
+
+label {
+  color: gray;
+}
+
+
